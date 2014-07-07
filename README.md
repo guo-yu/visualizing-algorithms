@@ -6,7 +6,7 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 对可视化来说算法是个令人着迷的案例。为了可视化一个算法，我们不仅仅把数据转化成图表。在这里没有主要的数据集，取而代之的是描述行为的逻辑规则。这也许就是为什么算法可视化是如此的不寻常，就好比作家以小说的形式来实验能否与读者进行更好的交流。这就是学习它们的足够的理由。
 
-但是算法也预示着可视化不仅仅是在数据中找到样式的工具。可视化利用人的视觉系统来[增强人类的智慧](http://www.dougengelbart.org/pubs/augment-3906.html)。我们可以利用它来更好的理解重要的抽象过程，兴许还有其他的东西。
+但是算法也预示着可视化不仅仅是在数据中找到样式的工具。可视化利用人的视觉系统来[增强人类的智慧](http://www.dougengelbart.org/pubs/augment-3906.html):我们可以利用它来更好的理解重要的抽象过程，兴许还有其他的东西。
 
 ## Sampling
 
