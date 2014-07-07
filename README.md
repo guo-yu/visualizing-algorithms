@@ -4,9 +4,9 @@
 
 The power of the unaided mind is highly overrated… The real powers come from devising external aids that enhance cognitive abilities. — [Donald Norman](http://www.jnd.org/books/things-that-make-us-smart-defending-human-attributes-in-the-age-of-the-machine.html)
 
-Algorithms are a fascinating use case for visualization. To visualize an algorithm, we don’t merely fit data to a chart; there is no primary dataset. Instead there are logical rules that describe behavior. This may be why algorithm visualizations are so unusual, as designers experiment with novel forms to better communicate. This is reason enough to study them.
+对可视化来说算法是个令人着迷的案例。为了可视化一个算法，我们不仅仅把数据转化成图表。在这里没有主要的数据集，取而代之的是描述行为的逻辑规则。这也许就是为什么算法可视化是如此的不寻常，就好比作家以小说的形式来实验能否与读者进行更好的交流。这就是学习它们的足够的理由。
 
-But algorithms are also a reminder that visualization is more than a tool for finding patterns in data. Visualization leverages the human visual system to [augment human intellect](http://www.dougengelbart.org/pubs/augment-3906.html): we can use it to better understand these important abstract processes, and perhaps other things, too.
+但是算法也预示着可视化不仅仅是在数据中找到样式的工具。可视化利用人的视觉系统来[增强人类的智慧](http://www.dougengelbart.org/pubs/augment-3906.html)。我们可以利用它来更好的理解重要的抽象过程，兴许还有其他的东西。
 
 ## Sampling
 
