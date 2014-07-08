@@ -4,17 +4,17 @@
 
 The power of the unaided mind is highly overrated… The real powers come from devising external aids that enhance cognitive abilities. — [Donald Norman](http://www.jnd.org/books/things-that-make-us-smart-defending-human-attributes-in-the-age-of-the-machine.html)
 
-对可视化来说算法是个令人着迷的案例。为了可视化一个算法，我们不仅仅把数据转化成图表。在这里没有主要的数据集，取而代之的是描述行为的逻辑规则。这也许就是为什么算法可视化是如此的不寻常，就好比作家以小说的形式来实验能否与读者进行更好的交流。这就是学习它们的足够的理由。
+对算法来说可视化是个迷人的应用场景。为了可视化一个算法，我们不仅仅把数据转化成图表。在这里没有主要的数据集，取而代之的是描述行为的逻辑规则。这也许就是为什么算法可视化是如此的不寻常，就好比作家以小说的形式来实验能否与读者进行更好的交流。这就是学习它们的足够的理由。
 
 但是算法也预示着可视化不仅仅是在数据中找到样式的工具。可视化利用人的视觉系统来[增强人类的智慧](http://www.dougengelbart.org/pubs/augment-3906.html):我们可以利用它来更好的理解重要的抽象过程，兴许还有其他的东西。
 
-## Sampling
+## 取样
 
-![Sampling](http://bost.ocks.org/mike/algorithms/starry-night-detail.jpg)
+![取样](http://bost.ocks.org/mike/algorithms/starry-night-detail.jpg)
 
-Before I can explain the first algorithm, I first need to explain the problem it addresses.
+在我解释第一个算法之前，我首先需要解释下问题的称呼。
 
-Light — electromagnetic radiation — the light emanating from this screen, traveling through the air, focused by your lens and projected onto the retina — is a continuous signal. To be perceived, we must reduce light to discrete impulses by measuring its intensity and frequency distribution at different points in space.
+光是电磁辐射，一种连续的信号。它从屏幕中射出, 经过了空气, 聚集在你的晶状体并投射在你的视网膜上。为了感知到光, 我们必须降低光的离散脉冲，通过测量其在不同的点在空间中强度和频率分布的方式。
 
 This reduction process is called sampling, and it is essential to vision. You can think of it as a painter applying discrete strokes of color to form an image (particularly in [Pointillism](http://en.wikipedia.org/wiki/Pointillism) or [Divisionism](http://en.wikipedia.org/wiki/Divisionism)). Sampling is further a core concern of computer graphics; for example, to rasterize a 3D scene by raytracing, we must determine where to shoot rays. Even resizing an image requires sampling.
 
