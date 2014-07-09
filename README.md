@@ -16,9 +16,9 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 光是电磁辐射，一种连续的信号。它从屏幕中射出, 经过了空气, 聚集在你的晶状体并投射在你的视网膜上。为了感知到光, 我们必须降低光的离散脉冲，通过测量其在不同的点在空间中强度和频率分布的方式。
 
-这种减少的过程叫做采样，并且对视觉来说是必要的。你可以想象一下画家在用离散颜色的画笔在作画。(详见[Pointillism](http://en.wikipedia.org/wiki/Pointillism) 或者 [Divisionism](http://en.wikipedia.org/wiki/Divisionism)). 更进一步说，采样是计算机图形学的一个核心; 例如，通过光线追踪光栅化一个3D场景，我们必须决定从哪射出光线。甚至改变一个图像的大小也需要采样。
+这种减少的过程叫做采样，并且对视觉来说是必要的。你可以想象一下画家在用离散颜色的画笔在作画。(详见[Pointillism](http://en.wikipedia.org/wiki/Pointillism) 或者 [Divisionism](http://en.wikipedia.org/wiki/Divisionism))。 更进一步说，采样是计算机图形学的一个核心; 例如，通过光线追踪光栅化一个3D场景，我们必须决定从哪射出光线。甚至改变一个图像的大小也需要采样。
 
-Sampling is made difficult by competing goals. On the one hand, samples should be evenly distributed so there are no gaps. But we must also avoid repeating, regular patterns, which cause [aliasing](http://en.wikipedia.org/wiki/Aliasing). This is why you shouldn’t wear a finely-striped shirt on camera: the stripes resonate with the grid of pixels in the camera’s sensor and cause [Moiré patterns](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern).
+采样会因竞争目标而变得困难。一方面，样本应该被均匀分布使其无间隙。但同时我们也必须避免重复规则图案, 因为会导致 [混淆现象](http://en.wikipedia.org/wiki/Aliasing). 这就是在相机前你不应该穿规则条纹的衬衫，这些条纹会与相机传感器里面像素网格产生共振，并会导致产生[莫尔条纹](http://en.wikipedia.org/wiki/Moir%C3%A9_pattern).
 
 ![](http://bost.ocks.org/mike/algorithms/retinal-cone-mosaic.jpg)
 
