@@ -22,7 +22,7 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 ![](http://bost.ocks.org/mike/algorithms/retinal-cone-mosaic.jpg)
 
-The human retina has a beautiful solution to sampling in its placement of photoreceptor cells. The cells cover the retina densely and evenly (with the exception of the [blind spot](http://en.wikipedia.org/wiki/Blind_spot_(vision)) over the optic nerve), and yet the cells’ relative positions are irregular. This is called a Poisson-disc distribution because it maintains a minimum distance between cells, avoiding occlusion and thus wasted photoreceptors.
+人的视网膜有一个很漂亮的采样解决方案，它安置在感光细胞上。这些细胞密集而均匀的分布在视网膜上 (除了[盲点](http://en.wikipedia.org/wiki/Blind_spot_(vision)) over the optic nerve), and yet the cells’ relative positions are irregular. This is called a Poisson-disc distribution because it maintains a minimum distance between cells, avoiding occlusion and thus wasted photoreceptors.
 
 Unfortunately, creating a Poisson-disc distribution is hard. (More on that in a bit.) So here’s a simple approximation known as Mitchell’s best-candidate algorithm.
 
