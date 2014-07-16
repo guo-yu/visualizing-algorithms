@@ -22,9 +22,9 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 ![](http://bost.ocks.org/mike/algorithms/retinal-cone-mosaic.jpg)
 
-人的视网膜有一个很漂亮的采样解决方案，它安置在感光细胞上。这些细胞密集而均匀的分布在视网膜上 (除了视神经上的[盲点](http://en.wikipedia.org/wiki/Blind_spot_(vision)) ), and yet the cells’ relative positions are irregular. This is called a Poisson-disc distribution because it maintains a minimum distance between cells, avoiding occlusion and thus wasted photoreceptors.
+人的视网膜有一个安置在感光细胞上的很漂亮的采样方法。这些细胞密集而均匀的分布在视网膜上 (除了视神经上的[盲点](http://en.wikipedia.org/wiki/Blind_spot_(vision))), 并且这些细胞的相对位置是不规则的。这被称为泊松圆盘分布，因为它保持单元之间的最小距离，以避免因阻塞而浪费感光体。
 
-Unfortunately, creating a Poisson-disc distribution is hard. (More on that in a bit.) So here’s a simple approximation known as Mitchell’s best-candidate algorithm.
+不幸的是，产生一个泊松圆盘分布是困难的。因此这里有一个Mitchell 最佳候选的近似算法。
 
 You can see from these dots that best-candidate sampling produces a pleasing random distribution. It’s not without flaws: there are too many samples in some areas (oversampling), and not enough in other areas (undersampling). But it’s reasonably good, and just as important, easy to implement.
 
