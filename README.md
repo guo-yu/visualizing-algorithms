@@ -34,7 +34,7 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 颜色是红色的最佳候选，是在原先所有被标记黑色的样本中最远的那一个。每个候选到最近的样本的距离用先和圆圈表示：注意到没有其他的样本在灰色的或者红色的圆圈内。在所有的候选产生并且距离被测量后，最佳候选则变成了新的样本，其他的候选则忽略。
 
-Now here’s the code:
+以下是代码：
 
 ```javascript
 function sample() {
@@ -51,7 +51,7 @@ function sample() {
 }
 ```
 
-As I explained the algorithm above, I will let the code stand on its own. (And the purpose of this essay is to let you study code through visualization, besides.) But I will clarify a few details:
+对如上解释算法，我会把代码独立出来。（本文的目的之一是希望你能通过代码学习可视化）。但是我要弄清一些细节：
 
 The external `numCandidates` defines the number of candidates to create per sample. This parameter lets you trade-off speed with quality. The lower the number of candidates, the faster it runs. Conversely, the higher the number of candidates, the better the sampling quality.
 
