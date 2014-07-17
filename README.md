@@ -32,7 +32,7 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 对于每个新的样本，最佳候选算法产生一个固定数量的候选，以灰色展示（在这里，这个固定数量是10）。每一个候选都是独立地从采样区域中选出。
 
-颜色是红色的最佳候选，是在原先所有被标记黑色的样本中最远的那一个。每个候选到最近的样本的距离用先和圆圈表示：注意到没有其他的样本在灰色的或者红色的圆圈内。After all candidates are created and distances measured, the best candidate becomes the new sample, and the remaining candidates are discarded.
+颜色是红色的最佳候选，是在原先所有被标记黑色的样本中最远的那一个。每个候选到最近的样本的距离用先和圆圈表示：注意到没有其他的样本在灰色的或者红色的圆圈内。在所有的候选产生并且距离被测量后，最佳候选则变成了新的样本，其他的候选则忽略。
 
 Now here’s the code:
 
