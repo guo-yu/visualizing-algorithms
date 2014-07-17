@@ -26,13 +26,13 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 不幸的是，产生一个泊松圆盘分布是困难的。因此这里有一个Mitchell 最佳候选的近似算法。
 
-You can see from these dots that best-candidate sampling produces a pleasing random distribution. It’s not without flaws: there are too many samples in some areas (oversampling), and not enough in other areas (undersampling). But it’s reasonably good, and just as important, easy to implement.
+你可以看到，最佳候选采样算法生成了一个优雅的随机分布。尽管这并不是没有缺陷的：有许多样本在一个区域（过采样），也有一些区域样本不足（欠采样）。但它确实不错，更重要的是，它很容易实现。
 
-Here’s how it works:
+下面展示它是如何工作的：
 
-For each new sample, the best-candidate algorithm generates a fixed number of candidates, shown in gray. (Here, that number is 10.) Each candidate is chosen uniformly from the sampling area.
+对于每个新的样本，最佳候选算法产生一个固定数量的候选，以灰色展示（在这里，这个固定数量是10）。每一个候选都是独立地从采样区域中选出。
 
-The best candidate, shown in red, is the one that is farthest away from all previous samples, shown in black. The distance from each candidate to the closest sample is shown by the associated line and circle: notice that there are no other samples inside the gray or red circles. After all candidates are created and distances measured, the best candidate becomes the new sample, and the remaining candidates are discarded.
+颜色是红色的最佳候选，是在原先所有被标记黑色的样本中最远的那一个。每个候选到最近的样本的距离用先和圆圈表示：注意到没有其他的样本在灰色的或者红色的圆圈内。After all candidates are created and distances measured, the best candidate becomes the new sample, and the remaining candidates are discarded.
 
 Now here’s the code:
 
