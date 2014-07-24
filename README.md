@@ -66,7 +66,7 @@ function distance(a, b) {
 }
 ```
 
-The findClosest function returns the closest sample to the current candidate. This can be done by brute force, iterating over every existing sample. Or you can accelerate the search, say by [using a quadtree](http://bl.ocks.org/mbostock/9078690). Brute force is simple to implement but very slow (quadratic time, in [O-notation](http://en.wikipedia.org/wiki/Big_O_notation)). The accelerated approach is much faster, but more work to implement.
+findClosest函数返回当前候选的最近的样本。这可以枚举每个现有的样本，暴力完成。或者你可以利用[四叉树](http://bl.ocks.org/mbostock/9078690)加速搜索。暴力搜索很容易实现，但是非常慢(需要平方时间，具体见 [大O表示](http://en.wikipedia.org/wiki/Big_O_notation))。加速算法更快，但是需要更多工作来实现。
 
 Speaking of trade-offs: when deciding whether to use an algorithm, we evaluate it not in a vacuum but against other approaches. And as a practical matter it is useful to weigh the complexity of implementation — how long it takes to implement, how difficult it is to maintain — against its performance and quality.
 
