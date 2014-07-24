@@ -32,7 +32,7 @@ The power of the unaided mind is highly overrated… The real powers come from d
 
 对于每个新的样本，最佳候选算法产生一个固定数量的候选，以灰色展示（在这里，这个固定数量是10）。每一个候选都是独立地从采样区域中选出。
 
-颜色是红色的最佳候选，是在原先所有被标记黑色的样本中最远的那一个。每个候选到最近的样本的距离用先和圆圈表示：注意到没有其他的样本在灰色的或者红色的圆圈内。在所有的候选产生并且距离被测量后，最佳候选则变成了新的样本，其他的候选则忽略。
+颜色为红色最佳候选，是在原先所有被标记黑色的样本中最远的那一个。每个候选到最近的样本的距离用先和圆圈表示：注意到没有其他的样本在灰色的或者红色的圆圈内。在所有的候选产生并且距离被测量后，最佳候选则变成了新的样本，其他的候选则忽略。
 
 以下是代码：
 
@@ -53,9 +53,10 @@ function sample() {
 
 对如上解释算法，我会把代码独立出来。（本文的目的之一是希望你能通过代码学习可视化）。但是我要弄清一些细节：
 
-The external `numCandidates` defines the number of candidates to create per sample. This parameter lets you trade-off speed with quality. The lower the number of candidates, the faster it runs. Conversely, the higher the number of candidates, the better the sampling quality.
 
-The `distance` function is simple geometry:
+外部变量`numCandidates`定义了每个样本所要创造的候选数量。这个参数能让你进行速度与质量的平衡。候选越少，运行越快。反之，越多的候选，采样质量越高。
+
+`distance`函数是简单的几何计算：
 
 ```javascript
 function distance(a, b) {
